@@ -11,7 +11,7 @@ $(function(){
         }
         return xhr;
     }
-    var req = createCORSRequest("GET","https://cors-anywhere.herokuapp.com/https://bna.com.ar");
+    var req = createCORSRequest("GET","https://api.codetabs.com/v1/proxy/?quest=https://bna.com.ar");
     if (req){
         req.onload = function(data){
             //console.log(data);
